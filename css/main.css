@@ -29,11 +29,11 @@ h1 {
     align-items: center;
 }
 
-.header-left p{
+/* .header-left p{
     font-size: 40px;
     font-family: sans-serif;
     padding: 0 0 0 25px;
-}
+} */
 
 .header-right {
     display: flex;
