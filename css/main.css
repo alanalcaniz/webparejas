@@ -5,9 +5,20 @@ body {
     background-color: #f8f8f8;
 }
 
+::selection {
+    background-color: #4eaaff;
+    color: #020202;
+}
+
 h1 {
     margin-left: 30px;
     margin-top: 25px;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #0f8bff;
 }
 
 .top {
@@ -46,7 +57,7 @@ h1 {
     #background-color: red;
     #margin: 5px;
     padding: 20px;
-    border-top: 2px solid red;
+    border-top: 2px solid #64b0f3;
 }
 
 .button {
@@ -54,13 +65,20 @@ h1 {
     align-items: center;
     text-decoration: none;
     margin-right: 25px;
-    padding: 8px 8px 6px 6px;
+    padding: 10px 10px 8px 8px;
     border-radius: 10px;
-    transition: text-shadow 0.3s ease;
+    transition: 500ms cubic-bezier(0,.5,.5,1);
 }
 
 .button:hover {
-    text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 5px rgba(0, 0, 0, 0.3);
+    scale: 105%;
+    background-color: rgba(100, 201, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(100, 185, 255, 0.5);
+}
+
+.button:hover .button-span {
+    color: #000a13;
 }
 
 .button:visited {
@@ -85,6 +103,9 @@ h1 {
 
 .ad-left-text {
     padding: 15px;
+    font-weight: 600;
+    color: #001b3f;
+    text-shadow: 0 0 15px #b5d7ff;
 }
 
 .ad-right{
@@ -103,13 +124,11 @@ h1 {
     display: flex;
     flex-direction: row;
     margin: 20px 20px;
-    padding: 15px;
-    border-radius: 15px 15px 15px 15px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-    
+    padding: 15px 15px 15px 25px;
+    border-radius: 9999px;
+    background-color: #ececec;
+    border: 1px solid lightgrey;
+    align-items: center;
 }
 
 .rute img{
@@ -125,13 +144,22 @@ h1 {
     width: 100%;
     height: fit-content;
     display: flex; /* hay que conseguir que al hacer la pagina mas o menos grande que los cuadros no se hagan mas pequeños, supongo que con block
-    para que los cuadros tengan siempre el mismo tamaño si o si, para eso tendremos que crear un apartado de css que se adapte al mobil jugando 
+    para que los cuadros tengan siempre el mismo tamaño si o si, para eso tendremos que crear un apartado de css que se adapte al mobil jugando
     con la resolución */
+    flex-direction: row;
+    align-items: baseline;
     justify-content: space-between;
 }
 
+.subjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 15px 0px 15px;
+}
+
 .course{
-    max-width: 70%;
+    width: 70%;
     height: fit-content;
     margin-left: 20px;
     background-color: #fff;
@@ -143,13 +171,6 @@ h1 {
 
     width: 100%;
 
-}
-
-.subjects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 15px 0px 15px;
 }
 
 .subject-card {
@@ -177,7 +198,12 @@ h1 {
 }
 
 .subject-card-txt {
-    margin: 10px 15px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    text-align: left;
+    justify-content: center;
+    margin-left: 15px;
 }
 
 .subject-card-txt p {
@@ -194,8 +220,8 @@ h1 {
 .unit{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin: 0px 15px 0px 15px;
+    margin-left: 30px;
     border: 1px #e0e0e0;
     border-radius: 10px;
 }
@@ -210,7 +236,7 @@ h1 {
 }
 
 .upcoming-events-section {
-    max-width: 30%;
+    width: 25%;
     height: fit-content;
     margin-right: 20px;
     background-color: #fff;
@@ -222,10 +248,12 @@ h1 {
     display: flex;
     flex-direction: column;
     margin: 0px 15px 20px 15px;
+    overflow: hidden;
+    align-items: center;
 }
 
 .event {
-    width: 375px;
+    width: 85%;
     height: 100px;
     background-color: #f6f6f6;
     border: 1px solid #e0e0e0;
@@ -235,7 +263,7 @@ h1 {
 
 .footer {
     display: flex;
-    border-top: 2px solid red;
+    border-top: 2px solid #64b0f3;
     width: 100%;
     font-size: 14px;
     text-align: center;
@@ -246,6 +274,21 @@ h1 {
 .footer-div {
     height: fit-content;
     margin: 20px 0px 20px 0px;
+}
+
+/* para hacerlo responsive*/
+@media (max-width: 995px) {
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        margin-bottom: 10px;
+    }
+
 }
 
 /* Que miras? esto es muy sospechoso por tu parte
