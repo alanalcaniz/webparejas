@@ -1,5 +1,5 @@
 [] arreglar los iconos (pasarlos a material icons y borrar las imágenes)
 [] hacerlo responsive (obviamente porque sino el profe nos pone un 0)
-[] qué coño es lo de las líneas 108-111 del css (de verdad qué coño es eso)
-[] poner más mensages tontos
-[] modo oscuro?
+[] modo oscuro? No da tiempo, si lo hacemos tiene que ser solo ese sin modo claro
+[] hacer mas bonito el entregado y por entregar
+[] poner iconos de las tareas más bonitos?

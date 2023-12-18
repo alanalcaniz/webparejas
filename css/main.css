@@ -260,6 +260,22 @@ a {
     margin: 2 0 10px 0;
 }
 
+.finished{
+    display: block;
+    color: #0b3a06;
+    margin: 0 0 0 40px;
+}
+
+.finished p{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 12px;
+    background-color: #a2ff9a;
+    border: 1px solid #84e481;
+    border-radius: 12px;
+    margin: 2 0 10px 0;
+}
+
 .upcoming-events-section {
     width: 25%;
     height: fit-content;
