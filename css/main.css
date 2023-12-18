@@ -40,14 +40,15 @@ a {
     align-items: center;
 }
 
-/* .header-left p{
+.header-left p{
     font-size: 40px;
     font-family: sans-serif;
     padding: 0 0 0 25px;
-} */
+}
 
 .header-right {
     display: flex;
+    padding: 0 8px 0 0;
 }
 
 .tab {
@@ -220,19 +221,27 @@ a {
 .unit{
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 15px 0px 15px;
-    margin-left: 30px;
-    border: 1px #e0e0e0;
+    flex-direction: column;
+    margin: 0px 15px 0px 30px;
+    border: 1px solid #e0e0e0;
     border-radius: 10px;
+    margin: 10px 15px;
+}
+
+.unit h2{
+    padding: 0 0 0 15px;
+    margin: 10px 15px 10px 0;
 }
 
 .work{
     display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    padding: 10px;
 }
 
 .work img{
-    width: 23px;
-    padding: 0 8px 8px 0;
+    width: 25px;
+    padding: 0 8px 0 0;
 }
 
 .upcoming-events-section {
