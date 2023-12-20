@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="339dbbb5-07d0-4308-8d8f-6f616f7d57af" name="Changes" comment="nueva web - aules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COSAS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/COSAS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplicacionesweb.html" beforeDir="false" afterPath="$PROJECT_DIR$/aplicacionesweb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empresa.html" beforeDir="false" afterPath="$PROJECT_DIR$/empresa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingles.html" beforeDir="false" afterPath="$PROJECT_DIR$/ingles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguredad.html" beforeDir="false" afterPath="$PROJECT_DIR$/seguredad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistemasoperativos.html" beforeDir="false" afterPath="$PROJECT_DIR$/sistemasoperativos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xarxa.html" beforeDir="false" afterPath="$PROJECT_DIR$/xarxa.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +86,7 @@
       <workItem from="1702848078109" duration="1425000" />
       <workItem from="1702883876827" duration="6607000" />
       <workItem from="1703056069645" duration="134000" />
-      <workItem from="1703056213869" duration="7224000" />
+      <workItem from="1703056213869" duration="8031000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
